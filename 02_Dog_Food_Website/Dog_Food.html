@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dog Food</title>
+    <style>
+         *{
+            margin: 0;
+         }
+         header{
+                background-color: rgb(235, 232, 232);
+                /* border: 1px solid; */
+                height: 120px;
+            }
+            .Name{
+                text-transform: uppercase;
+                margin-left: 70px;
+                display: inline-block;
+                padding: 8px;
+            }
+            .MainImage{
+                padding: 0px;
+                margin: 0px;
+            }
+            .MainImage>img{
+                width:100%;
+            }
+            .Product{
+                /* background-color: rgb(235, 232, 232); */
+                margin-bottom: 40px;
+            }
+            .Product h2{
+                margin: 0px;
+                padding-left: 42%;
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+            .Product>div{
+                display: inline-block;
+                width:49.5%;
+            }
+            .Product>.PImg{
+                text-align: center;
+            }
+            .btn{
+                background-color: black;
+                color: white;
+                margin-top: 40px;
+                padding:5px 12px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            .tb3{
+                height: 10px;
+                margin-left: 75%;
+                display: inline-block;
+            }
+        .insta{
+            text-align: center;
+        }
+        .imgs>div{
+            display: inline-block;
+            height: 300px;
+            width: 297px;
+            background-color: white;
+        }
+        .search{
+            text-align: center;
+        }
+        button{
+            padding: 8px 20px; 
+            background-color: rgb(67, 171, 216);
+            border: none; color: azure;
+        }
+        .tb{
+            margin-top: 30px;
+            background-color: black;
+            color: white;
+        }
+        .tb>div{
+            display: inline-block;
+        }
+        .tb1{
+            margin-left: 200px;
+        }
+        .tb1 td{
+            padding: 18px;
+        }
+        .tb2{
+            float: right;
+            margin-right: 90px;
+        }
+        main{
+            display: flex;
+            justify-content: center;
+            background-color: rgb(235, 232, 232);
+        }
+        main>div{
+            margin: 20px;
+            height: 600px;
+            width: 600px;   
+            background-color: rgb(235, 232, 232);
+        }
+        h1{
+            color: rgb(22, 22, 22);
+            font-size: 40px;
+        }
+        main h4{
+            padding: 10px;
+        }
+        .g_logo{
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+            margin: 30px;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            background-color: rgb(235, 232, 232);
+        }
+        section>div{
+            margin: 20px;
+            height: 600px;
+            width: 600px;   
+        }
+        hr{
+            margin-right: 40px;
+            margin-left: 40px;
+        }
+        .food_info{
+            text-align: center; 
+            width: 500px;
+             border: 5px solid;
+        }
+        .food_info h3{
+            padding: 20px;
+        }
+        figure>div{
+            padding: 5px;
+        }
+        .Head{
+            width: 80%;
+            padding: 0% 10%;
+            text-align: center;
+        }
+        .Content{
+            width: 44%;
+            padding: 0% 28%;
+        }
+        .IMG{
+            width: 80%;
+            padding: 0% 10%;
+        }
+        .IMG img{
+            margin:30px 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <table class="tb3">
+            <tr>
+                <td><a href="#">Registration/sign up</a></td>
+                <td><a href="#"><img src="./Assets/login.jpg" alt="Login Logo" height="30px"></a> </td>
+                <td><a href="#">Search</a></td>
+                <td><a href="#"><img src="./Assets/Search.jpg" alt="Search Logo" height="30px"></a></td>
+            </tr>
+        </table>
+        <div class="Name"><a href="Products.html" target="_blank">Products</a></div>
+        <div class="Name"> <a href="#">About us</a> </div>
+        <div class="Name"> <a href="#">Faqs</a></div>
+        <div class="Name"> <a href="#"> Blog</a></div>
+        <div class="Name"><img src="./Assets/logo_Image.jfif" alt="Logo" height="80px"></div>
+        <div class="Name"> <a href="#"> Giving BACK</a></div>
+        <div class="Name"> <a href="#"> Testimonials</a></div>
+        <div class="Name"> <a href="#"> CONTACT</a></div>
+    </header>
+    <div class="MainImage">
+        <img src="./Assets/Background (1).jpg" alt="Main Advertising Image" height="500px">
+    </div>
+    <div class="Product">
+        <h2>Our Products</h2>
+        <div class="PImg">
+            <img src="./Assets/Product01.jpg" alt="Product Of Our Company" height="300px">
+            <h3>Dried Dog Food</h3>
+            <input type="button" value="Shop Now" class="btn">
+        </div>
+        <div class="PImg">
+            <img src="./Assets/Product02.jpg" alt="Product Of Our Company" height="300px">
+            <h3>Frozen Dog Food</h3>
+            <input type="button" value="Shop Now" class="btn">
+        </div>
+    </div>
+    <section>
+        <div>
+            <h1 style="font-size: 50px;">The Ketogenic dog food with nothing to hide.</h1>
+            <h4 style="font-size: 20px;">We don't hide behind confusing pet food labels.<br> That's why we made a real nutrition label for our <br>ketogenic dog food. This is what all labels should look like.</h4>
+            <div style="width: 350px; height: 230px;margin: 90px;">
+                <img src="./Assets/04.jfif" alt="Dog" height="100%" width="100%">
+            </div>
+        </div>
+        <div class="food_info">
+            <h1 style="color: skyblue; text-align: center;">Nutrition At A Glance</h1>
+            <hr>
+            <h2 >Calories</h2>
+            <hr>
+            <h3>Total carbohydrate 1g</h3>
+            <hr>
+            <h3>Dietary Fiber 1g</h3>
+            <hr>
+            <h3>Sugars 1g</h3>
+            <hr>
+            <h3>Not Carbohydrate lg</h3>
+            <hr>
+            <h3>Total Fat 4g</h3>
+            <hr>
+            <h3>Polyunsaturated Fat 0.5g</h3>
+            <hr>
+            <h3>Monounsaturated Fat 1g</h3>
+        </div>
+    </section>
+    <figure>
+        <div class="Head">
+            <h1 style="margin: 40px;">Everything your dog needs. Nothing they don't</h1>
+            
+        <div class="Content">
+            <p>Every dog lover takes care of their dogs as their child. They make it a point to provide them with the
+                best dog food for them. You should acknowledge this fact and grasp this opportunity to supply stuff that
+             </p>
+        </div>
+        </div>
+        <div class="IMG">
+            <img src="./Assets/Dog_Food-1.jpeg" alt="" height="400px" width="450px">
+            <img src="./Assets/Dog_Food-2.jpeg" alt="" height="400px" width="300px">
+        </div>
+    </figure>>
+    
+    <main>
+        <div>
+            <img src="./Assets/06.jpg" alt="Dog" width="100%" height="100%">
+        </div>
+        <div class="img_d">
+            <h1>Smart dogs eat low carb.</h1>
+            <h4>Dogs should be powered by fat and protein - not carbs. That's why we searched high and low for a commercially available low carb, ketogenic dog food. And you know what? We couldn't find one. So we created our own.</h4>
+            <br>
+            <h1>Why keto?</h1>
+            <h4>In humans, low carbohydrate diets have been shown to keep insulin levels low and reduce inflammation. We make low carb, ketogenic dog food with only with human-grade ingredients. Shop now and see why smart dogs eat low carb.</h4>
+            <div class="g_logo">
+                <img src="./Assets/logo-1.jpg" alt="human-grade" width="100%" height="100%">
+            </div>
+            <div class="g_logo">
+                <img src="./Assets/logo-2.jpg" alt="human-grade" width="100%" height="100%">
+            </div>
+            <div class="g_logo">
+                <img src="./Assets/logo-3.jpg" alt="human-grade" width="100%" height="100%">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="insta">
+            <div>
+                <img src="./Assets/instagram.png" alt="Instagram" width="50px" height="50px">
+            </div>
+            <div style="color: navy;"><h1>Follow us on Instagram</h1></div>
+            <div><h4>@VisionaryPetFoods</h4></div>
+        </div>
+        <div class="imgs">
+            <div><img src="./Assets/01.jpeg" alt="Dog" height="100%" width="100%"></div>
+            <div><img src="./Assets/02.jfif" alt="Dog" height="100%" width="100%"></div>
+            <div><img src="./Assets/03.jfif" alt="Dog" height="100%" width="100%"></div>
+            <div><img src="./Assets/04.jfif" alt="Dog" height="100%" width="100%"></div>
+            <div><img src="./Assets/05.jpg" alt="Dog" height="100%" width="100%"></div>
+        </div>
+        <div class="search">
+            <div><img src="" alt=""></div>
+            <div>
+                <h3>Stay In Touch</h3>
+                <input type="text" name="" id="" style="padding: 5px 40px;"><button style="">Go</button>
+                <p>Sign up to our offers, news and more</p>
+            </div>
+        </div>
+        <div class="tb">
+            <div class="tb1">
+                <table>
+                    <tr>
+                        <td>Product</td>
+                        <td>About Us</td>
+                        <td>Shipping Policy</td>
+                    </tr>
+                    <tr>
+                        <td>FAQs</td>
+                        <td>Store Locator</td>
+                        <td>Return Policy</td>
+                    </tr>
+                    <tr>
+                        <td>Blog</td>
+                        <td>Contact Us</td>
+                    </tr>
+                    <tr>
+                        <td>Giving Back</td>
+                    </tr>
+                    <tr>
+                        <td>Testimonials</td>
+                    </tr>        
+                </table>
+            </div>
+            <div class="tb2">
+                <table>
+                    <tr>
+                        <td><img src="./Assets/Phone.png" alt="Phone" height="50px" width="50px"></td>
+                        <td>1-800-325-0043</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./Assets/Facebook.png" alt="Facebook" height="50px" width="50px"></td>
+                        <td>Facebook</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./Assets/instagram.png" alt="Instagram" height="50px" width="50px"></td>
+                        <td>Instagram</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./Assets/Twitter.png" alt="Twitter" height="50px" width="50px"></td>
+                        <td>Twitter</td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+    </footer>
+</body>
+</html>
